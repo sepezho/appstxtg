@@ -29,7 +29,7 @@ const PoolsList = () => {
           <Icon src={loadImage(pool.icon)} /> {pool.title} / ${getPrice(prices, pool.syntPythId)}
         </PoolItem>
       ))}
-      <Link to={"https://syde.fi"}>?about</Link>
+      <Link to={"https://stx.tg"}>?about</Link>
       {/*
       <AboutBtn onClick={() => moveTo('/swap')}>synt swap</AboutBtn >
       <br />
