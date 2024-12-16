@@ -8,7 +8,7 @@ import PoolsList from './pages/PoolsList';
 import { Provider } from 'react-redux'
 import { store } from './store/reducers'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+console.log('1')
 const App = () => {
   return (
     <Provider store={store}>
