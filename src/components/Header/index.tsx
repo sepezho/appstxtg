@@ -54,7 +54,7 @@ const Header = () => {
     <HeaderContainer>
       <TonConnectButton />
       <br />
-      <a href={"https://syde.fi"}>
+      <a href={"https://stx.tg"}>
         <Logo src={loadImage("s.png")} />
       </a>
       beta testnet v0.1.2

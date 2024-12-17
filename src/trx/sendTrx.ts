@@ -120,7 +120,7 @@ export const submitMinTx = async (amountMint: any, state: any, pool: any, tonCon
         modals: 'all',
         skipRedirectToWallet: 'ios',
         notifications: [],
-        returnStrategy: 'https://app.syde.fi'
+        returnStrategy: 'https://app.stx.tg'
       })
     } catch (e) {
       console.log(e)
@@ -185,7 +185,7 @@ export const submitBurnTx = async (amountBurn: any, state: any, pool: any, tonCo
         modals: 'all',
         skipRedirectToWallet: 'ios',
         notifications: [],
-        returnStrategy: 'https://app.syde.fi'
+        returnStrategy: 'https://app.stx.tg'
       })
     } catch (e) {
       console.log(e)

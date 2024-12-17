@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <GlobalStyles />
-    <TonConnectUIProvider manifestUrl="https://app.syde.fi/tonconnect-manifest.json">
+    <TonConnectUIProvider manifestUrl="https://app.stx.tg/tonconnect-manifest.json">
       <App />
     </TonConnectUIProvider>
   </React.StrictMode>
